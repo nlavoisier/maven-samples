@@ -10,13 +10,10 @@
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
-
-	<modules>
-                <module>multi-module</module>
-	
-                <module>single-module</module>
-        </modules>
-                
+  <modules>
+   <module>multi-module</module>
+   <module>single-module</module>
+  </modules>    
 
   <prerequisites>
     <maven>3.0.3</maven>
